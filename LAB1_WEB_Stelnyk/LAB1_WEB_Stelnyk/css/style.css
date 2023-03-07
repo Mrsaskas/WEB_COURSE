@@ -1,0 +1,73 @@
+*{
+    padding: 0; /*внутрішній відступ*/
+    margin: 0; /*зовнішній відступ*/
+    border: 0;
+}
+/*очищуємо всі відступи і границі*/
+
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/*вирівнюємо поведінку шрифтів і елементів для різних браузерів*/
+
+
+/*обнулення стандартних стилів сss*/
+
+.bigred{
+    color: red;
+}
+h2{
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+/*     
+    margin-left: 50%;
+     */
+}
+
+h3{
+    font-size: 35px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.ins{
+
+    margin-left:15px;
+    margin-right:15px;
+    width: auto;	
+    height: 310px;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-bottom:5px solid rgb(0, 0, 0) ;
+    padding: 10px 30px 10px 20px;
+    
+   
+}
+
+p{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ico
+{
+    text-align: center;
+}
