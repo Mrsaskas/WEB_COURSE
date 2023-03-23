@@ -1,0 +1,72 @@
+*{
+    padding: 0; /*внутрішній відступ*/
+    margin: 0; /*зовнішній відступ*/
+    border: 0;
+}
+/*очищуємо всі відступи і границі*/
+
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/*вирівнюємо поведінку шрифтів і елементів для різних браузерів*/
+
+/*обнулення стандартних стилів сss*/
+
+table 
+{
+    width: 100%; 
+    border: 1px solid black;
+	border-spacing:0.5px;
+	height: auto;
+	text-align: center;
+    /* border-collapse: collapse;*/
+}
+tr, td
+{
+    padding: 3px;
+	width: 30px;
+	height: 35px;
+    border: 1px solid black;
+}
+
+tr
+{
+    width: 100%;
+}
+
+.username
+{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.rad
+{
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    
+}
+
+.l
+{
+    align-items: left;
+}
+
+input, textarea
+{
+    border: 1px solid #060606;
+}
+
+
+
+
