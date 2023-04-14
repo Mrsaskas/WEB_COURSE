@@ -1,0 +1,121 @@
+*{
+    padding: 0; /*внутрішній відступ*/
+    margin: 0; /*зовнішній відступ*/
+    border: 0;
+}
+/*очищуємо всі відступи і границі*/
+
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/*вирівнюємо поведінку шрифтів і елементів для різних браузерів*/
+
+/*обнулення стандартних стилів сss*/
+
+.conteiner
+{
+    
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center
+
+
+    /* height: 120px;
+    width: 140px; */
+
+}
+
+.bord
+{
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.conteiner_1
+{
+    display: flex;
+    flex-direction: row;
+    
+    width: 404px;
+    
+    
+    /* align-items: right; */
+}
+
+.calc_disp
+{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    width: 404px;
+    height: 70px;
+    justify-content: right;
+    align-items: right;
+    color: aliceblue;
+    font-size: 60px;
+    border: 1px solid black;
+    background-color: dimgray;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.zer_in_disp
+{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+.item
+{
+    height: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
+
+    font-size: 25px;
+    border: 1px solid black;
+    background-color: dimgray;
+    
+    
+}
+
+
+.item_0
+{ 
+      
+    width: 202px;
+    border-bottom-left-radius: 15px;
+}
+
+.or
+{
+background-color: orange;
+}
+
+.bl
+{
+    background-color: rgb(47, 46, 46);
+}
+
+.equ
+{
+    background-color: orange;
+    border-bottom-right-radius: 15px;
+}
