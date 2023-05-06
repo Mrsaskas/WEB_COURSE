@@ -1,0 +1,343 @@
+*{
+    padding: 0; /*внутрішній відступ*/
+    margin: 0; /*зовнішній відступ*/
+    border: 0;
+}
+/*очищуємо всі відступи і границі*/
+
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/*вирівнюємо поведінку шрифтів і елементів для різних браузерів*/
+
+/*обнулення стандартних стилів сss*/
+
+body
+{
+    /* background-color: rgb(239, 238, 235); */
+    background-color: #eceef3;
+}
+
+.main_container
+{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    min-height: 100vh;
+    margin-top: 10vh;
+    /* overflow-y: scroll; */
+    width: 95%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px 15px 0px 0px;
+    
+
+}
+
+
+.user_info
+{
+    
+    min-height: 100%;
+    width: 25%;
+    background-color: #f5f8f9;
+    border-radius: 15px 15px 0px 0px;
+    background-repeat: repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+
+
+.ava{
+   
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 50px;
+	border-radius: 50px;
+}
+
+.creative{
+    margin-top: 10px;
+	display: block;
+	background-color: #e9edf0;
+	color: #788595;
+	text-align: center;
+	height: 25px;
+	width: 170px;
+	border-radius: 20px;
+	
+	padding-top: 10px;
+}
+
+.media_links
+{
+    /* background-color: aqua; */
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+
+}  
+
+.linkl
+{
+    display: block;
+    padding: 5px;
+    
+}
+
+i
+{
+    text-decoration: none;
+    color: gray;
+    
+
+}
+
+i:hover
+{
+    color: #909dae;
+}
+
+
+
+table 
+{
+    width: 95%; 
+    margin-left: 5px;
+    margin-right: 5px;
+    /* border: 1px solid black; */
+	height: auto;
+	text-align: left;
+    /* border-collapse: collapse;*/
+}
+tr, td
+{
+    padding: 7px;
+	width: fit-content;
+	height: fit-content;
+    /* border: 1px solid black; */
+}
+
+tr
+{
+    width: 100%;
+}
+
+.klein
+{
+    width:30%;
+    text-align: right;
+
+}
+
+
+
+.data_text
+{
+    font-family: Arial;
+	font-weight: normal;
+	color: gray;
+}
+
+.cv{
+	display: block;
+	font-family: Arial;
+	font-size: normal;
+	font-weight: bold;
+	color: white;
+	width: 150px;
+	height: 60px;
+	background-color: #304cfd;
+	border-radius: 20px;
+	text-align: center;
+	border: none;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+.fa-download
+{
+    color: #fff;
+}
+
+.container2
+{
+    min-height: 100%;
+   
+    width: 70%;
+    background-repeat: repeat;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navi
+{
+    
+    height: fit-content;
+    margin-bottom: 5%; 
+    display: flex;
+    justify-content: right;
+    /* background-color: aqua; */
+    align-items: center; 
+    width: 100%;
+}
+
+
+
+.menu
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.menu_part
+{
+    display: block;
+    padding: 5px;
+    padding-top: 20px;
+    color: azure;
+    font-size: 10px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.link_menu
+{
+    text-decoration: none;
+    color:rgb(9, 9, 9);
+    padding: 10px;
+}
+
+.about
+{
+    background-color: rgb(79, 66, 255);
+    color: aliceblue;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+
+}
+
+.menu_part:hover .link_menu 
+{
+    background-color: rgb(79, 66, 255);
+    color: aliceblue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.line
+{
+    /* margin-left: 30px; */
+    width: 50px;
+    background: rgb(255,150,94);
+    background: linear-gradient(90deg, rgba(255,150,94,1) 27%, rgba(48,76,253,1) 27%); 
+    height: 5px;
+    border-radius: 10px;
+}
+  
+
+
+
+.text_info
+{
+    
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: fit-content;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-family: Arial;
+	font-weight: normal;
+	color: gray;
+	padding-left: 10px;
+
+   
+}
+
+h2
+{
+    color:rgb(78, 77, 77);
+}
+
+.some_info
+{
+   
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-rows: 150px 150px ;
+    grid-template-columns: 250px 250px ;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    
+    
+}
+
+.item
+{
+    /* background-color: gray; */
+    font-family: Arial;
+    font-size: small;
+
+	font-weight:normal;
+	color: gray;
+
+
+
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+    border: 2px solid rgb(243, 244, 244);
+    border-radius: 15px;
+}
+
+.s_i
+{
+    margin-bottom:10px;
+    text-align: center;
+
+}
+
+
+.item:hover
+{
+    /* background-color: gray; */
+    border: 2px solid rgb(130, 127, 127);
+    border-radius: 15px;
+}
+
+
+
+
