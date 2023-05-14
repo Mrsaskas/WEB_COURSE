@@ -1,0 +1,104 @@
+*{
+    padding: 0; /*внутрішній відступ*/
+    margin: 0; /*зовнішній відступ*/
+    border: 0;
+}
+/*очищуємо всі відступи і границі*/
+
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/*вирівнюємо поведінку шрифтів і елементів для різних браузерів*/
+
+/*обнулення стандартних стилів сss*/
+
+
+
+.as
+{
+    min-height: 100%;
+    border-radius: 0px 20px 20px 0px;
+
+}
+
+.round2
+{
+    border-radius: 0px 20px 0px 0px;
+}
+
+.r
+{
+    border-radius: 10px;
+}
+
+.rounded
+{
+    border-radius: 50px;
+}
+
+.ava {
+	border-radius: 60px;
+}
+
+.line
+{
+
+    width: 50px;
+    background: rgb(255,150,94);
+    background: linear-gradient(90deg, rgba(255,150,94,1) 27%, rgba(48,76,253,1) 27%); 
+    height: 5px;
+    border-radius: 10px;
+}
+
+.creative{
+    
+	display: block;
+	background-color: #e9edf0;
+	color: #788595;
+	text-align: center;
+	height: 25px;
+	width: 170px;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+
+.media
+{
+    padding-left: 25%;
+    padding-top: 10px;
+}
+
+.cv{
+	display: block;
+	font-family: Arial;
+	font-size: normal;
+	font-weight: bold;
+	color: white;
+	width: 150px;
+	height: 60px;
+	background-color: #304cfd;
+	border-radius: 20px;
+	text-align: center;
+	border: none;
+    margin: 10px;
+}
+
+.but
+{
+    padding-left:20%;
+}
+
+
+
+
+
+
